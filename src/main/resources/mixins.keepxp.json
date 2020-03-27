@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "xyz.achu.keepxp.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinPlayerEntity",
+    "MixinServerPlayerEntity"
+  ]
+}

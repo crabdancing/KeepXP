@@ -6,18 +6,18 @@
   "name": "Fabric Starter",
   "icon": "assets/starter/icon.png",
   "description": "Template for starting out Fabric mods",
-  "license": "MIT",
+  "license": "GPLv3",
   "contact": {
     "sources": "https://github.com/CottonMC/FabricStarter"
   },
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.cottonmc.starter.FabricStarter"
+      "xyz.achu.keepxp.KeepXP"
     ]
   },
   "mixins": [
-    "mixins.starter.json"
+    "mixins.keepxp.json"
   ],
   "depends": {
     "fabricloader": ">=0.4.0"
